@@ -754,3 +754,29 @@ console.log(arr);
 let obj = {js:'test', jq: 'hello', css: 'world'};
 console.log(Object.keys(obj));
 */
+
+
+/*
+function reverse_a_number(n) {
+  n = n + "";
+  return n.split("").reverse().join("");
+}
+      
+document.writeln(reverse_a_number(258961)); // 169852
+*/
+
+
+/*
+function nameOfFunc() {
+    document.writeln( arguments.callee.name );
+}
+
+nameOfFunc();
+*/
+
+
+/*
+var input = [1, 2, 3, 4, 5, 6];
+function isEven(x) { return x % 2 == 0; } // проверяет на четность
+console.log(filter(input, isEven));
+*/
